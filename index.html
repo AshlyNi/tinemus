@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Instrumentos Musicales - Rediseño</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Música</span> Express</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Encuentra tu sonido ideal</h1>
+            <p>Descubre nuestra colección de instrumentos musicales de alta calidad</p>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="C:\Users\ELIZABETH\Downloads\estructura html\estructura html\guitarra.jpg" alt="Guitarra">
+                <h3>Guitarras</h3>
+                <p>Amplia selección de guitarras acústicas y eléctricas</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\ELIZABETH\Downloads\estructura html\estructura html\pianos-electricos.jpg" alt="Piano">
+                <h3>Pianos</h3>
+                <p>Pianos acústicos y digitales de las mejores marcas</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\ELIZABETH\Downloads\estructura html\estructura html\bateria.jpg" alt="Batería">
+                <h3>Baterías</h3>
+                <p>Baterías acústicas y electrónicas para todos los niveles</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="purchase-form">
+        <div class="container">
+            <h2>Formulario de Compra</h2>
+            <form>
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <select required>
+                    <option value="">Selecciona un producto</option>
+                    <option value="guitarra">Guitarra</option>
+                    <option value="piano">Piano</option>
+                    <option value="bateria">Batería</option>
+                    <option value="violin">Violín</option>
+                    <option value="saxofon">Saxofón</option>
+                </select>
+                <input type="number" placeholder="Cantidad" min="1" required>
+                <textarea placeholder="Comentarios o instrucciones especiales"></textarea>
+                <button type="submit" class="button_1">Realizar Compra</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono">
+                <textarea placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit" class="button_1">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>ASHLY MIRELLA NUÑEZ NIZAMA</p>
+    </footer>
+</body>
+</html>
